@@ -1,0 +1,119 @@
+/* Apply a CSS Reset to remove default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background colors for the entire document */
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    font-family: Arial, sans-serif;
+    padding: 20px; /* Add padding to the entire page */
+    font-size: 16px; /* Reduce the default font size for the entire page */
+}
+
+/* Style the header with a background color, centered text, and padding */
+header {
+    background-color: #dfd5d5; /* Dark background for the header */
+    text-align: center;
+    padding: 20px 0;
+    color: #fff; /* White text color */
+}
+
+
+h1 {
+    font-size: 2em; /* Adjust the font size as needed */
+    margin: 20px 0;
+    color: #c91717; /* Change the text color for the h1 element (blue) */
+}
+
+
+/* Style other headings (h2, h3, h4, h5, h6) with different colors and smaller font sizes */
+h2 {
+    font-size: 2em;
+    color: #007BFF; /* Blue text color */
+}
+
+h3 {
+    font-size: 1.8em;
+    color: #E44D26; /* Red-Orange text color */
+}
+
+h4 {
+    font-size: 1.6em;
+    color: #18BC9C; /* Turquoise text color */
+}
+
+h5 {
+    font-size: 1.4em;
+    color: #FFC107; /* Yellow text color */
+}
+
+h6 {
+    font-size: 1.2em;
+    color: #8E44AD; /* Purple text color */
+}
+
+/* Style the section containing authors' information */
+#authors {
+    background-color: #fff; /* White background for authors' section */
+    padding: 20px;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+/* Style the strong and em tags for authors' information */
+#authors strong {
+    font-weight: bold;
+}
+
+#authors em {
+    font-style: italic;
+}
+
+/* Style the Abstract and other sections */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background for sections */
+    box-shadow: 0px 0px 5px #888888;
+}
+
+/* Style headings within sections */
+section h2, section h3, section h4, section h5, section h6 {
+    font-size: 1.3em; /* Reduce font size for section headings */
+}
+
+/* Style the Keywords section */
+#keywords p {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style figure captions */
+figcaption {
+    font-size: 0.8em;
+    text-align: center;
+    color: #777;
+}
+
+/* Add space around figures */
+figure {
+    margin: 20px 0;
+    text-align: center; /* Center-align the images */
+}
+
+/* Style the References section as an ordered list */
+#references ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    color: #333;
+}
+
+/* Style the addendum */
+#html-abuse-update {
+    background-color: #f5f5f5; /* Light gray background for the addendum */
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 5px #888888;
+    color: #333;
+}
